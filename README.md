@@ -10,12 +10,12 @@ Functionality
 4. Confirmation - After the users have made the reservation, a notification will come that the reservation has been confirmed.
 5.Feedback- Drive-Smart application, it will include a rating system in order to ensure improvements and to share with others their experiences regarding our service.
 
-Aim: 
+Aim:
 The purpose of  DRIVE-SMART is to offer an innovative application in a convenient way to facilitate the process of choosing cars and to offer an excellent service to the users of this application.Through this application we will offer a great variety of cars to suit the preferences and demands of customers.
 
 Main Objectives:
-To simplify the process
-Security
-Technological Innovation
+To simplify the process,
+Security,
+Technological Innovation,
 To provide transparency
 
