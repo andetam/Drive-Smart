@@ -188,13 +188,7 @@ Unique constraints on email addresses for Users.
 Constraints on payment amounts for Payments.
 
 ## c. Technologies Used: 
-- **Backend:** Node.js with Express.js: This quick and scalable backend was created to effectively manage several requests at once using Node.js and Express.js.
--**Database:** MongoDB: Adaptable NoSQL database that effectively stores dynamic data, perfect for handling user profiles, reservations, and car information.
-- **Frontend:** React.js is a component-based user interface package that provides a declarative method for creating dynamic, interactive user interfaces.
-- **API Gateway:** NGINX: Lightweight, high-performance gateway for routing and load balancing, enhancing application performance and reliability.
-- **Message Queue:** RabbitMQ: Dependable message broker that promotes asynchronous microservices communication while guaranteeing fault tolerance and scalability.
--**Containerisation:** Docker: Portable containers make microservices easier to deploy and maintain while guaranteeing dependability and consistency in a variety of settings.
-- **Orchestration:** Kubernetes is a scalable orchestration platform that optimises resource usage, guarantees high availability, and automates the deployment and scaling of containerised applications.
+It is yet to be worked on it.
 
 ## d. User Interface Design: 
 Mockups and wireframes (Offer links to mockups or wireframes, or explain the UI design). The user interface's straightforward and user-friendly design makes it simple for customers to manage their accounts, search for cars, and make reservations.
