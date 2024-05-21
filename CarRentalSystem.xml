@@ -1,0 +1,151 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CarRentalSystem
+</name>
+</assembly>
+<members>
+<member name="T:CarRentalSystem.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:CarRentalSystem.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:CarRentalSystem.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSet.BankBalanceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSet.CarsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSet.ClientDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSet.SystemAdminDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSet.BankBalanceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSet.CarsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSet.ClientRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSet.SystemAdminRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSet.BankBalanceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSet.CarsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSet.ClientRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSet.SystemAdminRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSetTableAdapters.BankBalanceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSetTableAdapters.CarsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSetTableAdapters.ClientTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSetTableAdapters.SystemAdminTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:CarRentalSystem.ViewsDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(CarRentalSystem.ViewsDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:CarRentalSystem.ViewsDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(CarRentalSystem.ViewsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:CarRentalSystem.ViewsDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(CarRentalSystem.ViewsDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:CarRentalSystem.ViewsDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:CarRentalSystem.ViewsDataSetTableAdapters.TableAdapterManager.UpdateAll(CarRentalSystem.ViewsDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:CarRentalSystem.ViewsDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

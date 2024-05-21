@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{749F33BE-E571-4009-A382-8385F78E9ACC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>CarRentalSystem.My.MyApplication</StartupObject>
+    <RootNamespace>CarRentalSystem</RootNamespace>
+    <AssemblyName>CarRentalSystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CarRentalSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CarRentalSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminMenu.Designer.vb">
+      <DependentUpon>AdminMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Category.Designer.vb">
+      <DependentUpon>Category.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Category.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOut.Designer.vb">
+      <DependentUpon>CheckOut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOut.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientMenu.Designer.vb">
+      <DependentUpon>ClientMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ClientMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FeedBacks.Designer.vb">
+      <DependentUpon>FeedBacks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FeedBacks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogIn.Designer.vb">
+      <DependentUpon>LogIn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LogIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageCars.Designer.vb">
+      <DependentUpon>ManageCars.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCars.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageCarsProblems.Designer.vb">
+      <DependentUpon>ManageCarsProblems.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageCarsProblems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageClients.Designer.vb">
+      <DependentUpon>ManageClients.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManageClients.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ReportCarIssue.Designer.vb">
+      <DependentUpon>ReportCarIssue.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReportCarIssue.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReviewPolls.Designer.vb">
+      <DependentUpon>ReviewPolls.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewPolls.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowCars.Designer.vb">
+      <DependentUpon>ShowCars.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShowCars.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowClients.Designer.vb">
+      <DependentUpon>ShowClients.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ShowClients.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SystemInformation.Designer.vb">
+      <DependentUpon>SystemInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SystemInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ViewsDataSet.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AdminMenu.resx">
+      <DependentUpon>AdminMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Category.resx">
+      <DependentUpon>Category.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOut.resx">
+      <DependentUpon>CheckOut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientMenu.resx">
+      <DependentUpon>ClientMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeedBacks.resx">
+      <DependentUpon>FeedBacks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogIn.resx">
+      <DependentUpon>LogIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageCars.resx">
+      <DependentUpon>ManageCars.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageCarsProblems.resx">
+      <DependentUpon>ManageCarsProblems.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageClients.resx">
+      <DependentUpon>ManageClients.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportCarIssue.resx">
+      <DependentUpon>ReportCarIssue.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReviewPolls.resx">
+      <DependentUpon>ReviewPolls.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowCars.resx">
+      <DependentUpon>ShowCars.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowClients.resx">
+      <DependentUpon>ShowClients.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SystemInformation.resx">
+      <DependentUpon>SystemInformation.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="ViewsDataSet.xsc">
+      <DependentUpon>ViewsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ViewsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ViewsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ViewsDataSet.xss">
+      <DependentUpon>ViewsDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
